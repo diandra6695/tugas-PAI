@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://unpkg.com/feather-icons"></script>
+        <link rel="stylesheet" href="../src/style/global.css">
+        <title>Document</title>
+    </head>
+    <body>
+    <div class="container m-auto h-screen">
+        <div class="wrap p-8">
+            <div class="tools flex justify-between mb-5">
+                <div class="back mb-5 text-green-950 flex justify-center items-center h-12 w-12 bg-slate-100 rounded-full">
+                    <a class="" href="list.html"><i data-feather="chevron-left"></i></a>
+                </div>
+                <div class="other flex gap-4 bg-slate-100 p-0.5 rounded-full justify-center items-center w-44 h-14">
+                    <div class="text-green-950 flex justify-center items-center h-10 w-10 bg-white rounded-full">
+                        <a class="" href="#"><i data-feather="edit"></i></a>
+                    </div>
+                    <div class="text-green-950 flex justify-center items-center h-10 w-10 bg-white rounded-full">
+                        <a class="text-xs" href="#"><i data-feather="share"></i></a>
+                    </div>
+                    <div class="text-green-950 flex justify-center items-center h-10 w-10 bg-white rounded-full">
+                        <a class="" href="#"><i data-feather="save"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content slide-top-2">
+                <div class="informations flex justify-between items-center mb-5">
+                    <div class="profil flex items-center text-xs text-slate-500 gap-2">
+                        <img class="w-8 h-8 rounded-full object-cover" src="https://source.unsplash.com/random/?profile" alt="pp">
+                        <p>Kelompok 1</p>
+                    </div>
+                    <div class="date text-xs text-slate-500">
+                        <p>Agu 28 2023</p>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="title text-2xl font-bold mb-5">
+                        <h3>
+                            Membiasakan Berpikir Kritis dan Semangat Mencintai Iptek
+                        </h3>
+                    </div>
+                    <div class="image mb-5">
+                        <figure class="text-center text-xs italic text-slate-500">
+                            <img src="https://source.unsplash.com/random/?astetic" class="rounded-xl h-52 w-full object-cover mb-2" alt="">
+                            <figcaption>Lorem ipsum dolor sit amet.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="text">
+                        <p class="mb-4" id="coba">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="renungan">
+                <h3 class="focus-in-expand font-bold text-green-950 text-xl mb-5">Renungi Sejenak</h3>
+                <img class="rounded-xl" src="https://api.akuari.my.id/islami/renunganislam" alt="">
+            </div>
+        </div>
+    </div>
+    <script>
+        feather.replace()
+    </script>
+    <script src="../src/js/index.js"></script>
+</body>
+</html>
